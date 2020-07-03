@@ -45,6 +45,7 @@ import {
 } from "./Scenes/Fair"
 import { FairQueryRenderer } from "./Scenes/Fair/Fair"
 import FavoritesScene from "./Scenes/Favorites"
+import { FeatureQueryRenderer } from "./Scenes/Feature/Feature"
 import { HomeQueryRenderer } from "./Scenes/Home/Home"
 import { MapContainer } from "./Scenes/Map"
 import { MyAccountQueryRenderer } from "./Scenes/MyAccount/MyAccount"
@@ -362,3 +363,5 @@ register("ViewingRooms", ViewingRoomsListQueryRenderer)
 register("ViewingRoom", ViewingRoomQueryRenderer, { fullBleed: true })
 register("ViewingRoomArtworks", ViewingRoomArtworksQueryRenderer)
 register("WorksForYou", WorksForYouQueryRenderer)
+
+register("Feature", FeatureQueryRenderer)
