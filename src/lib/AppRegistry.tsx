@@ -364,4 +364,4 @@ register("ViewingRoom", ViewingRoomQueryRenderer, { fullBleed: true })
 register("ViewingRoomArtworks", ViewingRoomArtworksQueryRenderer)
 register("WorksForYou", WorksForYouQueryRenderer)
 
-register("Feature", FeatureQueryRenderer)
+register("Feature", FeatureQueryRenderer, { fullBleed: true })
